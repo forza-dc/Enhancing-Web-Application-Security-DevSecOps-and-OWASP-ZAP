@@ -77,7 +77,7 @@ The generated report presents the comprehensive security scan report produced by
 ![image](https://github.com/forza-dc/Enhancing-Web-Application-Security-DevSecOps-and-OWASP-ZAP/blob/main/OwaspZap%20Report.png) 
 ![image](https://github.com/forza-dc/Enhancing-Web-Application-Security-DevSecOps-and-OWASP-ZAP/blob/main/Security%20Alert%20with%20Details.png) 
 
-Here is the summary of our OWASPZAP Scan. We have total 5 Medium Level Vulnerabilities.
+The report indicates a minimal presence of high-risk issues (0), a moderate number of medium (5) and low-risk (7) alerts, alongside several informational findings (9). False positives remain absent (0), reflecting a balanced risk posture overall.
 
 | Summary of Alerts  | Risk Level      | Number of Alerts |
 |--------------------|-----------------|------------------|
