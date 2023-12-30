@@ -6,7 +6,7 @@ This short project delves into the setup and utilization of OWASP ZAP within a D
 
 ## Flow Diagram
 
-![image](https://github.com/forza-dc/Enhancing-Web-Application-Security-DevSecOps-and-OWASP-ZAP/blob/main/Flow%20Diagram%20Owasp%20Paint.png) 
+![image](https://github.com/forza-dc/Enhancing-Web-Application-Security-DevSecOps-and-OWASP-ZAP/blob/main/Flow%20Diagram%20Owasp%20Paint%201.png) 
 
 ## Requirrements
 
