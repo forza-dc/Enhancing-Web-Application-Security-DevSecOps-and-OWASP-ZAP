@@ -8,7 +8,7 @@ This short project delves into the setup and utilization of OWASP ZAP within a D
 
 ![image](https://github.com/forza-dc/Enhancing-Web-Application-Security-DevSecOps-and-OWASP-ZAP/blob/main/Flow%20Diagram%20Owasp%20Paint%202.png) 
 
-## Requirrements
+## Requirements
 
 Before proceeding, ensure that you have Kali Linux installed, or have access to a Kali Linux environment to execute the commands and utilize OWASP ZAP for web application security assessments.
 
