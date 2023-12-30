@@ -1,4 +1,4 @@
-# Enhancing Web Application Security: DevSecOps and OWASP ZAP
+# 👨🏻‍💻 🌎 🔐 Enhancing Web Application Security: DevSecOps and OWASP ZAP 👨🏻‍💻 🌎 🔐
 ## Lab Overview
 
 DevSecOps is an approach that integrates security practices into the DevOps process, aiming to ensure that security is an integral part of the software development lifecycle. In this case, the project involves setting up and utilizing OWASP ZAP within a Docker container for automated security scans of web applications. This aligns with the principles of DevSecOps by incorporating security measures early in the development and deployment pipeline, also known as the 'Shift Left' philosophy, allowing for proactive identification and mitigation of potential vulnerabilities earlier in the software development process.
@@ -77,4 +77,19 @@ The generated report presents the comprehensive security scan report produced by
 ![image](https://github.com/forza-dc/Enhancing-Web-Application-Security-DevSecOps-and-OWASP-ZAP/blob/main/OwaspZap%20Report.png) 
 ![image](https://github.com/forza-dc/Enhancing-Web-Application-Security-DevSecOps-and-OWASP-ZAP/blob/main/Security%20Alert%20with%20Details.png) 
 
+Here is the summary of our OWASPZAP Scan. We have total 5 Medium Level Vulnerabilities.
 
+| Summary of Alerts  | Risk Level      | Number of Alerts |
+|--------------------|-----------------|------------------|
+|     :no_entry_sign: | High            |        0         |
+|     :warning:       | Medium          |        5         |
+|     :large_blue_diamond: | Low         |        7         |
+|     :information_source: | Informational |        9         |
+|     :white_check_mark: | False Positives|        0         |
+
+## Conclusion
+
+After the completion of the scan, no high-risk vulnerabilities were found. However, a considerable number of medium and low-risk issues, alongside informational findings, were detected.
+Medium-risk vulnerabilities, observed in instances such as the absence of Anti-CSRF tokens, improperly configured Content Security Policy (CSP) headers, and the omission of Anti-clickjacking headers, identify potential weak points that, if left unattended, could lead to security breaches.
+Furthermore, low-risk concerns, such as the absence of the SameSite attribute in cookies, potential Cross-Domain JavaScript Source File Inclusions, and misconfigured headers, while not posing an immediate threat, highlight areas where reinforcing security measures could enhance the web application's defense posture.
+👨🏻‍💻 🚀 In summary, the OWASP ZAP Vulnerability Scanner effectively identifies a range of vulnerabilities and areas for enhancement within the scanned site. By addressing these findings through suitable mitigation strategies - such as implementing missing security headers, refining input validation, and improving session management - the potential attack surface can be significantly reduced, fortifying the overall security stance of the site against potential threats. 👨🏻‍💻 🚀
